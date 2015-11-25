@@ -41,7 +41,7 @@ void check999( ) {
    last999 = millis( );
    pos999 += dir9;
    sv9.write(pos999);
-   if(dir9 == 70){
+   if(dir9 ==70){
       if(pos999 >179) dir9 = -1;
    }else{
       if(pos999 < 1) dir9 = 1;
